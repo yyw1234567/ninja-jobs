@@ -8,7 +8,7 @@
         <router-view />
 
         <button @click="redirect">Redirect</button>
-        <button @click="back">Go back</button>
+        <button @click="back">Go back123</button>
         <button @click="forward">Go forward</button>
     </div>
 </template>
@@ -21,7 +21,7 @@
             },
 
             back() {
-                this.$router.go(-1)
+                this.$router.go(-2)
             },
 
             forward() {
